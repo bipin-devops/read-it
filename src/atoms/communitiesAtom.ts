@@ -3,7 +3,7 @@ import { atom } from "recoil";
 
 export interface Community {
   id: string;
-  creatoId: string;
+  creatorId: string;
   numberOfMembers: number;
   privacyType: "public" | "private" | "restricted";
   createdAt?: Timestamp;
