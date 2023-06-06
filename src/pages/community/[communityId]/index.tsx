@@ -55,6 +55,12 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
     };
   } catch (error) {
     console.log("getServerSidePropsError", error);
+    // return {
+    //   props: {
+    //     communityData: null,
+    //     error: "An error occurred while fetching community data.",
+    //   },
+    // };
   }
 }
 export default CommunityPage;
