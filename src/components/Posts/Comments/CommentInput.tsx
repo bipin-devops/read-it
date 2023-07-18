@@ -56,7 +56,7 @@ const CommentInput: React.FC<CommentInputProps> = ({
           >
             <Button
               height="26px"
-              disabled={!commentText.length}
+              isDisabled={!commentText.length}
               isLoading={createLoading}
               onClick={() => onCreateComment(commentText)}
             >
